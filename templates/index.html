@@ -1,0 +1,224 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container py-4">
+    <h1 class="mb-4 text-center fw-bold main-title">ร้านขายเกม <span class="gamezone">- Gamezone</span></h1>
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        {% comment %} ตัวอย่างเกม 8 เกม {% endcomment %}
+        <div class="col">
+            <div class="card h-100 shadow game-card bg-dark text-white border-0">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/730/header.jpg" class="card-img-top" alt="CS:GO">
+                <div class="card-body">
+                    <h5 class="card-title">Counter-Strike: Global Offensive</h5>
+                    <p class="card-text">FPS สุดมันส์ระดับโลก เล่นกับเพื่อนหรือแข่ง eSports!</p>
+                    <div class="price-box mb-2">
+                        <span class="old-price">฿570</span>
+                        <span class="sale-price">฿342</span>
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent border-0">
+                    <button class="btn btn-outline-light w-100 fw-bold buy-btn">ซื้อเกมนี้</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow game-card bg-dark text-white border-0">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/570/header.jpg" class="card-img-top" alt="Dota 2">
+                <div class="card-body">
+                    <h5 class="card-title">Dota 2</h5>
+                    <p class="card-text">MOBA ระดับตำนาน สนุกกับการวางแผนและทีมเวิร์ค!</p>
+                    <div class="price-box mb-2">
+                        <span class="old-price">ฟรี</span>
+                        <span class="sale-price">ฟรี</span>
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent border-0">
+                    <button class="btn btn-outline-light w-100 fw-bold buy-btn">ซื้อเกมนี้</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow game-card bg-dark text-white border-0">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg" class="card-img-top" alt="GTA V">
+                <div class="card-body">
+                    <h5 class="card-title">Grand Theft Auto V</h5>
+                    <p class="card-text">เกมแอคชั่น Open World สุดฮิต เล่นได้ทั้งเนื้อเรื่องและออนไลน์!</p>
+                    <div class="price-box mb-2">
+                        <span class="old-price">฿699</span>
+                        <span class="sale-price">฿419</span>
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent border-0">
+                    <button class="btn btn-outline-light w-100 fw-bold buy-btn">ซื้อเกมนี้</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow game-card bg-dark text-white border-0">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/578080/header.jpg" class="card-img-top" alt="PUBG">
+                <div class="card-body">
+                    <h5 class="card-title">PUBG: BATTLEGROUNDS</h5>
+                    <p class="card-text">Battle Royale สุดมันส์ กระโดดร่มเอาตัวรอดเป็นคนสุดท้าย!</p>
+                    <div class="price-box mb-2">
+                        <span class="old-price">ฟรี</span>
+                        <span class="sale-price">ฟรี</span>
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent border-0">
+                    <button class="btn btn-outline-light w-100 fw-bold buy-btn">ซื้อเกมนี้</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow game-card bg-dark text-white border-0">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/header.jpg" class="card-img-top" alt="RDR2">
+                <div class="card-body">
+                    <h5 class="card-title">Red Dead Redemption 2</h5>
+                    <p class="card-text">ผจญภัยคาวบอยในโลกกว้างสุดสมจริง กราฟิกสวยงาม!</p>
+                    <div class="price-box mb-2">
+                        <span class="old-price">฿1,199</span>
+                        <span class="sale-price">฿719</span>
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent border-0">
+                    <button class="btn btn-outline-light w-100 fw-bold buy-btn">ซื้อเกมนี้</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow game-card bg-dark text-white border-0">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/812140/header.jpg" class="card-img-top" alt="Assassin's Creed Odyssey">
+                <div class="card-body">
+                    <h5 class="card-title">Assassin's Creed Odyssey</h5>
+                    <p class="card-text">ผจญภัยในยุคกรีกโบราณ เลือกเส้นทางและตัดสินใจเอง!</p>
+                    <div class="price-box mb-2">
+                        <span class="old-price">฿1,799</span>
+                        <span class="sale-price">฿1,079</span>
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent border-0">
+                    <button class="btn btn-outline-light w-100 fw-bold buy-btn">ซื้อเกมนี้</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow game-card bg-dark text-white border-0">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/359550/header.jpg" class="card-img-top" alt="Rainbow Six Siege">
+                <div class="card-body">
+                    <h5 class="card-title">Rainbow Six Siege</h5>
+                    <p class="card-text">FPS วางแผนกลยุทธ์ เน้นทีมเวิร์คและความแม่นยำ!</p>
+                    <div class="price-box mb-2">
+                        <span class="old-price">฿499</span>
+                        <span class="sale-price">฿299</span>
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent border-0">
+                    <button class="btn btn-outline-light w-100 fw-bold buy-btn">ซื้อเกมนี้</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 shadow game-card bg-dark text-white border-0">
+                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg" class="card-img-top" alt="The Witcher 3">
+                <div class="card-body">
+                    <h5 class="card-title">The Witcher 3: Wild Hunt</h5>
+                    <p class="card-text">RPG สุดเข้มข้น กราฟิกสวย เนื้อเรื่องสุดประทับใจ!</p>
+                    <div class="price-box mb-2">
+                        <span class="old-price">฿1,199</span>
+                        <span class="sale-price">฿719</span>
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent border-0">
+                    <button class="btn btn-outline-light w-100 fw-bold buy-btn">ซื้อเกมนี้</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+body {
+    background: #181818;
+}
+/* หัวข้อ Gamezone gradient & shadow */
+.main-title {
+    font-size: 2.7rem;
+    background: linear-gradient(90deg, #fff 10%, #00c3ff 40%, #ff4e50 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 4px 24px #000a, 0 1px 0 #fff8;
+    letter-spacing: 2px;
+}
+.main-title .gamezone {
+    font-weight: 900;
+    background: linear-gradient(90deg, #ff4e50 10%, #f9d423 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 2px 12px #ff4e5080, 0 1px 0 #fff8;
+}
+.game-card {
+    transition: transform 0.3s cubic-bezier(.4,2,.3,1), box-shadow 0.3s;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.25);
+    position: relative;
+}
+.game-card:hover {
+    transform: translateY(-10px) scale(1.04) rotate(-1deg);
+    box-shadow: 0 8px 40px 0 rgba(255,255,255,0.10), 0 2px 8px 0 rgba(0,0,0,0.25);
+    z-index: 2;
+    border: 1.5px solid #fff;
+    filter: brightness(1.08);
+}
+.game-card .card-img-top {
+    height: 180px;
+    object-fit: cover;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    transition: filter 0.3s;
+}
+.game-card:hover .card-img-top {
+    filter: brightness(1.15) saturate(1.2) drop-shadow(0 0 12px #fff8);
+}
+.buy-btn {
+    border-radius: 12px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 8px 0 rgba(255,255,255,0.08);
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s, transform 0.2s;
+    background: transparent;
+}
+.buy-btn:hover, .buy-btn:focus {
+    background: #fff;
+    color: #181818;
+    box-shadow: 0 0 16px 2px #fff, 0 2px 8px 0 rgba(0,0,0,0.18);
+    transform: scale(1.05);
+    border: 2px solid #fff;
+}
+.card-title, .card-text {
+    color: #fff;
+}
+.card-footer {
+    background: transparent;
+}
+/* ราคาเกม */
+.price-box {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.old-price {
+    color: #bbb;
+    text-decoration: line-through;
+    font-size: 1rem;
+    margin-right: 0.5em;
+    opacity: 0.7;
+}
+.sale-price {
+    color: #ffe066;
+    font-size: 1.35rem;
+    font-weight: bold;
+    text-shadow: 0 2px 8px #000a;
+    letter-spacing: 1px;
+}
+</style>
+{% endblock content %}
+
